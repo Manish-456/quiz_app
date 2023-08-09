@@ -22,7 +22,7 @@ function loadContent() {
   quiz_title.innerHTML = uniqueQuestions[quizRound].question;
   answer_a.innerHTML = uniqueQuestions[quizRound].options[0];
   const quizIndex = document.querySelector(".quiz_index");
-  quizIndex.innerHTML = `${quizRound + 1} / ${uniqueQuestions.length}`
+  quizIndex.innerHTML = `${quizRound + 1}/${uniqueQuestions.length}`
   // update the id of options with its index
   answer.forEach((ansEl, index) => {
     ansEl.id = index;

@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .quiz_index{
@@ -130,7 +131,8 @@ body {
     }
 
     .quiz_index{
-        font-size: 17px;
+        font-size: 15px;
+        padding: 0 10px;
     }
 
 
