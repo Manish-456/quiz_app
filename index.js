@@ -1,4 +1,4 @@
-import quizQuestions from "./quiz-question.js";
+import quizQuestions from "./lib/quiz-question.js";
 import removeDuplicate from "./lib/remove-duplicate.js";
 
 
